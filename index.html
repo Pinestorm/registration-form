@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Want to go to Mars?</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Want to go to Mars?</h1>
+    <hr>
+    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+  </header>
+  <main>
+    <p>Personal details</p><hr>
+    <form method="POST" action="https://formspree.io/stormieleaf227@gmail.com">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input id="number" name="age" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="abc@yourdomain.com" name="email" required>
+      </div>
+      <div>
+        <label for="physical fitness">Physical fitness</label>
+        <select id="physical fitness">
+          <option>Super-human"</option>
+          <option>Fit as a fiddle"</option>
+          <option>Not terribly strong"</option>
+          <option>A little couch-potato-y"</option>
+        </select>
+      </div>
+      <div>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+      <p>Mission statement</p><hr>
+      <div>
+        <label for="why">Why do you want to go to Mars?</label>
+        <textarea id="why" name="why" required></textarea>
+      </div>
+      <div>
+        <button type="submit">Register for the trip!</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
